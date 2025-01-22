@@ -1,0 +1,23 @@
+{
+  "name": "aspect-unit-converter",
+  "version": "0.1.0",
+  "description": "Aspect Unit Convert from JSON to YAML",
+  "main": "./app.ts",
+  "author": "test",
+  "license": "MIT",
+  "scripts": {
+    "convert": "npx tsc && node app.js convert"
+  },
+  "bin": {
+    "auc": "app.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}
